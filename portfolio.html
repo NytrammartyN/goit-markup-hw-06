@@ -393,6 +393,26 @@
             </li>
           </ul>
         </div>
+        <div class="footer_email_form_container">
+          <p class="footer_email_input_title">Подпишитесь на рассылку</p>
+          <form class="footer_email_form">
+            <label for="footer-e-mail" class="footer_email_field"></label>
+            <input
+              type="email"
+              class="footer_email_input"
+              name="e-mail"
+              id="footer-e-mail"
+              placeholder="E-mail"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            />
+            <button type="submit" class="footer_email_submit_button">
+              Подписаться
+              <svg class="icon_send" width="24px" height="24px">
+                <use href="./images/icons.svg#send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
