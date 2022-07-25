@@ -1039,8 +1039,9 @@ textarea:focus {
   border-color: var(--accent-text-color);
 }
 
-.form_checkbox:focus + .modal_chek {
-  box-shadow: 0 0 0 0.1em #188ce8;
+.form_checkbox:focus + .modal_chek,
+.form_checkbox:hover + .modal_chek {
+  box-shadow: 0 0 0 0.1em var(--hover-color);
 }
 
 .policy_label {
