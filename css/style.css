@@ -751,7 +751,7 @@ img {
 /* --------- email-input-------- */
 
 .footer_email_form_container {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .footer_email_input_title {
@@ -962,11 +962,11 @@ img {
   position: absolute;
   top: 50%;
   left: 15px;
-  transform: translateY(25%);
+  transform: translateY(20%);
 
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 13px;
 
   transition: fill var(--trancition-timing);
 }
